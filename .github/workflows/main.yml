@@ -53,7 +53,7 @@ jobs:
           SONAR_HOST_URL: ${{ secrets.SONAR_URL }}
         timeout-minutes: 5
 
-      - name: Debug: Görev dosyasını kontrol et
+      - name:Debug: Görev dosyasını kontrol et
         run: |
           echo "Dosya içeriği:"
           cat .scannerwork/report-task.txt || echo "Dosya bulunamadı!"
