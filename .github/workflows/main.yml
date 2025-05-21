@@ -55,6 +55,6 @@ jobs:
 
       - name: Debug: Görev dosyasını kontrol et
         run: |
-        echo "Dosya içeriği:"
-        cat .scannerwork/report-task.txt || echo "Dosya bulunamadı!"
+          echo "Dosya içeriği:"
+          cat .scannerwork/report-task.txt || echo "Dosya bulunamadı!"
 
